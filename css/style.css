@@ -1,0 +1,181 @@
+
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    /*line under words*/
+    text-decoration: none;
+    /*dots by listing*/
+    list-style:none;
+    box-sizing:border-box;
+    font-family:"Arial",sans-serif;
+    
+}
+
+body {
+   height: 60vh;
+}
+
+.logo {
+   color:whitesmoke;
+   font-size: 35px;
+   line-height: 80px;
+   padding:0 100px;
+   font-weight:bold;
+   cursor:pointer;
+
+}
+
+/* NAVIGATIE bar*/
+nav{
+    background:black;
+    height: 70px;
+    width:100%;
+/*captial letter*/
+    text-transform: uppercase;
+}
+
+nav ul{
+    float:right;
+    margin-right:20px;
+
+}
+
+
+nav ul li{
+    display:inline-block;
+    line-height:70px;
+    margin:0 50px;
+
+}
+
+nav ul li a {
+    color:white;
+    font-size: 17px;
+
+}
+
+
+nav ul li a:hover {
+    color:pink;
+    transition: all 1s;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    /* with this you can cover your image full stretch */
+   object-fit: cover;
+
+}
+
+
+ 
+ /*textbox 1  "Home page"*/
+.text-box1 h2 {
+ font-size: 20px;
+  text-align: center;
+  border: 5px solid black;
+  background-color:black;
+  padding: 25px 50px;
+  color:white
+  
+}
+
+.text-box1 {
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: white;
+    padding: 25px 50px;
+}
+
+
+ /*textbox 2  "Home page"*/
+.text-box2 h2 {
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    background-color:black;
+    padding: 25px 50px;
+    color:white
+}
+
+ 
+.text-box2 p{
+    text-align: center;
+    border: 5px solid black;
+    background-color:white;
+    padding: 25px 50px;
+  }
+
+
+ /*textbox 3  "Home page"*/
+  .text-box3 h2 {
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    background-color:black;
+    padding: 25px 50px;
+    color:white
+
+  }
+
+  .text-box3 p {
+  text-align: center;
+  border: 5px solid black;
+  background-color: white;
+  padding: 25px 50px;
+  }
+
+
+
+  /*textbox 4  "Home page"*/
+.text-box4 h2{
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    background-color:black;
+    padding: 25px 50px;
+    color:white
+}
+
+.text-box4 p {
+  text-align: center;
+  background-color: white;
+  padding: 25px 50px;
+}
+
+
+
+.footer h1 {
+    font-size: 20px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color:white;
+    font-style: normal;
+}
+
+
+
+/* THIRD page "profile"*/
+.images2 {
+    width: 600px;
+    height:600px;
+    padding:25px 25px;}
+/* with this you can cover your image full stretch */
+
+.main h2 h3 {
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.main p {
+    font-size: 15px;
+    text-align: CENTER;
+
+}
